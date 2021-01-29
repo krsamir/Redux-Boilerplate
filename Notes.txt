@@ -1,0 +1,17 @@
+Steps of adding redux to react application.
+1) Add Provider Component from react-redux.
+2) Add store attribute to that.
+
+Next create a store for reducer.
+
+rootRducer will contain all the reducers.
+
+Now create a reducers directory.
+ create a index js file and import it inside store.
+
+Inside index we will combine all reducers
+
+then create a actions directory and define types of actions.
+
+call types inside single reducer.
+
